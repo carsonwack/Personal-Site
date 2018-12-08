@@ -1,0 +1,128 @@
+#sideBar {
+    height: 100%;
+    width: 234px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+#my-name {
+    text-align: center;
+    color: white;
+}
+
+.nav-link {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+#headshot {
+    text-align: center;
+}
+
+.col-md-3 {
+    padding: 0px;
+}
+
+
+#head-shot {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    margin: 55px 20px 20px 20px;
+}
+
+
+
+
+
+
+
+#full-stack-dev {
+    vertical-align: top;
+    text-align: center;
+    padding-top: 45px;
+}
+
+
+
+
+
+
+.email {
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+#github {
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+#git-link {
+    margin-right: 45px;
+    font-size: 80px;
+}
+
+#linked-link {
+    margin-left: 45px;
+    font-size: 80px;
+}
+
+
+
+
+
+
+.arrows-down {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .col-md-3 {
+        display: none;
+    }
+  }
