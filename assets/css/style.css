@@ -311,6 +311,10 @@ a:hover {
 }
 
 
+
+
+
+
 .active {
 	color: white;
 	background-color: rgb(36, 40, 43);
@@ -318,8 +322,16 @@ a:hover {
 }
 
 
+#phone-menu {
+    display: none;
+}
+
+
+
+
+
 @media screen and (max-width: 767px) {
-    .col-md-3 {
+    #mobile-navbar {
         display: none;
     }
 
@@ -329,6 +341,22 @@ a:hover {
 
     .page-break {
         margin: 100px 0px 0px 0px;
+    }
+
+
+    #phone-menu {
+        display: block;
+        border-radius: 80px;
+        position: fixed;
+        width: 60px;
+        height: auto;
+        margin: 20px 0px 0px 10px;
+        border: solid;
+        border-color: black;
+        z-index: 4;
+        border-color: #343a40;
+
+
     }
 
 

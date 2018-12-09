@@ -32,12 +32,28 @@ $(document).ready(function () {
         window.location = "https://www.linkedin.com/in/carson-wack-206/";
     });
 
+
+    $('#phone-menu').click(function () {
+        $('#mobile').addClass('showing-sidebar');
+        document.getElementById('mobile-navbar').style.display = 'block';
+        document.getElementById('phone-menu').style.visibility = 'hidden';
+    });
+
+    if ($(window).width() < 768) {
+        $('a.nav-link').click(function () {
+            document.getElementById('mobile-navbar').style.display = 'none';
+            document.getElementById('phone-menu').style.visibility = 'visible';
+        });
+    }
+
+
+
     // _________________________________________________________________
 
 
     var $sections = $('.scrollable');
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         var currentScroll = $(this).scrollTop();
 
         var $currentSection;
@@ -46,17 +62,18 @@ $(document).ready(function () {
 
             var divPosition = $(this).offset().top;
 
-            if(divPosition - 1 < currentScroll ) {
+            if (divPosition - 1 < currentScroll) {
                 $currentSection = $(this);
             }
 
             var id = $currentSection.attr('id');
             $('a').removeClass('active');
-            $("[href='#"+id+"']").addClass('active');
+            $("[href='#" + id + "']").addClass('active');
 
         })
     });
 
+    // _________________________________________________________________
 
 
 });
