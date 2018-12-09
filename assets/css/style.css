@@ -1,3 +1,8 @@
+body {
+    font-family: 'Volkhov', serif;
+    background-color: #24282c
+}
+
 #sideBar {
     height: 100%;
     width: 234px;
@@ -13,7 +18,9 @@
 
 #my-name {
     text-align: center;
-    color: white;
+    color: #f3f3f3;
+    padding: 35px;
+    font-weight: bolder
 }
 
 .nav-link {
@@ -50,6 +57,7 @@
     vertical-align: top;
     text-align: center;
     padding-top: 45px;
+    color: black;
 }
 
 
@@ -60,7 +68,33 @@
 .email {
     text-align: center;
     padding-top: 15px;
+
 }
+
+a.email:link {
+    color: black;
+}
+
+a.email:visited
+{
+   color: #black;
+   text-decoration: none;
+}
+a.email:hover
+{
+   color:#0c1c36;
+   text-decoration: none;
+}
+a.email:active
+{
+   color: #black;
+   text-decoration: none;
+}
+
+
+
+
+
 
 
 
@@ -78,12 +112,32 @@
 #git-link {
     margin-right: 45px;
     font-size: 80px;
+    color: black;
 }
 
 #linked-link {
     margin-left: 45px;
     font-size: 80px;
+    color: black;
 }
+
+#git-link:hover {
+    cursor: pointer;
+    margin-right: 45px;
+    font-size: 80px;
+}
+
+#linked-link:hover {
+    cursor: pointer;
+    margin-left: 45px;
+    font-size: 80px;
+}
+
+#github i:hover {
+   color: #0c1c36;
+}
+
+
 
 
 
@@ -92,6 +146,7 @@
 
 .arrows-down {
     text-align: center;
+    color: black;
 }
 
 
@@ -102,6 +157,61 @@
 
 
 
+.port {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+
+.port img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.6;
+}
+
+.port h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 0;
+    font-weight: bold;
+    line-height: 17px;
+    color: #ffffff;
+    text-align: center;
+    background: #343a40;
+    border-bottom: 0;
+    font-size: smaller;
+   
+}
+
+
+
+.port img:hover ~ h3 {
+   background-color: #0c1c36;
+}
+
+.port img:hover {
+    cursor: pointer;
+}
+
+.port h3:hover {
+    cursor: pointer;
+    background-color: #0c1c36;
+}
+
+
+.port img {
+      border-radius: 12px;
+}
+
+
+
+.portfolio-span {
+    margin-left: 25px;
+}
 
 
 
@@ -109,20 +219,97 @@
 
 
 
+#first-row {
+    display: inline;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+#ingredient-list {
+    margin-right: 45px;
+}
+
+#fallacy {
+    margin-left: 45px;
+}
 
 
 
 
+#second-row {
+    display: inline;
+    text-align: center;
+    margin-top: 45px;
+}
+
+#betkeep {
+    margin-right: 45px;
+}
+
+#train {
+    margin-left: 45px;
+}
 
 
 
 
+#third-row {
+    display: inline;
+    text-align: center;
+    margin-top: 45px;
+}
+
+#stopwatch {
+    margin-right: 45px;
+}
+
+#gifs {
+    margin-left: 45px;
+}
 
 
+
+
+.resume {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.page-break {
+    text-align: center;
+    font-size: x-large;
+    margin: 60px 0px 45px 25px;
+    color: black;
+}
+
+#my-name href:hover {
+    cursor: pointer;
+    color: white;
+}
+
+a:hover {
+    color: #0c1c36;
+}
 
 
 @media screen and (max-width: 767px) {
     .col-md-3 {
         display: none;
     }
+
+    .portfolio-span {
+        margin-left: 25px;
+    }
+
+    .page-break {
+        margin: 100px 0px 0px 0px;
+    }
+
+
+
   }
