@@ -32,6 +32,10 @@ $(document).ready(function () {
         window.location = "https://www.linkedin.com/in/carson-wack-206/";
     });
 
+    $('#liri').click(function () {
+        window.location = "https://github.com/carsonwack/liri-node-app";
+    });
+
 
     $('#phone-menu').click(function () {
         $('#mobile').addClass('showing-sidebar');
