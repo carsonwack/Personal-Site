@@ -284,6 +284,20 @@ a.email:active
 }
 
 
+#fourth-row {
+    display: inline;
+    text-align: center;
+    margin-top: 45px;
+}
+
+#liri {
+    margin-right: 45px;
+}
+
+#node-and-SQL {
+    margin-left: 45px;
+}
+
 
 
 .resume {

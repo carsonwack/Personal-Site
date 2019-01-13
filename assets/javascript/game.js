@@ -36,6 +36,10 @@ $(document).ready(function () {
         window.location = "https://github.com/carsonwack/liri-node-app";
     });
 
+    $('#node-and-SQL').click(function () {
+        window.location = "https://github.com/carsonwack/liri-node-app";
+    });
+
 
     $('#phone-menu').click(function () {
         $('#mobile').addClass('showing-sidebar');
