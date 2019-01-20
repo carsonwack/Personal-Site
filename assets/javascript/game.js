@@ -40,6 +40,10 @@ $(document).ready(function () {
         window.location = "https://github.com/carsonwack/liri-node-app";
     });
 
+    $('#FriendFinder').click(function () {
+        window.location = "https://github.com/carsonwack/FriendFinder";
+    });
+
 
     $('#phone-menu').click(function () {
         $('#mobile').addClass('showing-sidebar');
