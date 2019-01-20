@@ -41,7 +41,7 @@ $(document).ready(function () {
     });
 
     $('#FriendFinder').click(function () {
-        window.location = "https://github.com/carsonwack/FriendFinder";
+        window.location = "https://mysterious-beach-27284.herokuapp.com/";
     });
 
 
