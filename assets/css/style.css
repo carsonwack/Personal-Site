@@ -56,8 +56,9 @@ body {
 #full-stack-dev {
     vertical-align: top;
     text-align: center;
-    padding-top: 45px;
-    color: black;
+    padding-top: 40px;
+    color: #5C6372;
+    font-size: smaller;
 }
 
 
@@ -67,12 +68,12 @@ body {
 
 .email {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 20px;
 
 }
 
 a.email:link {
-    color: black;
+    color: #5C6372;
 }
 
 a.email:visited
@@ -269,7 +270,7 @@ a.email:active
 
 
 
-#third-row {
+#third-row, #fourth-row, #fifth-row, #sixth-row, #seventh-row {
     display: inline;
     text-align: center;
     margin-top: 45px;
@@ -284,12 +285,6 @@ a.email:active
 }
 
 
-#fourth-row {
-    display: inline;
-    text-align: center;
-    margin-top: 45px;
-}
-
 #liri {
     margin-right: 45px;
 }
@@ -298,19 +293,14 @@ a.email:active
     margin-left: 45px;
 }
 
-#fifth-row {
-    display: inline;
-    text-align: center;
-    margin-top: 45px;
-}
 
 #FriendFinder {
     margin-right: 45px;
 }
 
-/* #node-and-SQL {
+#burger {
     margin-left: 45px;
-} */
+}
 
 
 

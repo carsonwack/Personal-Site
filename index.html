@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Volkhov:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
@@ -27,9 +27,9 @@
                 <div id="sideBar">
                     <p id="my-name">Carson Wack</p>
                     <br>
-                    <a href="#page1" class="nav-link">Home</a>
-                    <a href="#page2" class="nav-link">Portfolio</a>
-                    <a href="#page3" class="nav-link">Resume</a>
+                    <a href="#page1" class="nav-link" id="page1-button">Home</a>
+                    <a href="#page2" class="nav-link" id="page2-button">Portfolio</a>
+                    <a href="#page3" class="nav-link" id="page3-button">Resume</a>
                 </div>
             </div>
 
@@ -80,9 +80,14 @@
             </div>
 
             <div class="col-md-7" id="github">
+
                 <span style="font-size: 3rem;">
-                    <span id="git-link"><i class="fab fa-github"></i></span>
-                    <span id="linked-link"><i class="fab fa-linkedin"></i></span>
+                    <span><a id="git-link" href="https://github.com/carsonwack"><i
+                            class="fab fa-github"></i></a></span>
+
+                    <a href="https://www.linkedin.com/in/carson-wack-206/">
+                        <span id="linked-link"><i class="fab fa-linkedin"></i></span>
+                    </a>
                 </span>
             </div>
 
@@ -118,96 +123,117 @@
                 </div>
 
                 <div class="col-md-7" id="first-row">
-                    <div class="port" id="ingredient-list">
-                        <img src="assets/images/project-1.png">
-                        <h3>Ingredient Lister</h3>
-                    </div>
-                    <div class="port" id="fallacy">
-                        <img src="assets/images/Logical-Fallacy-site.png">
-                        <h3>Common Logical Fallacies Quiz</h3>
-                    </div>
+                    <a href="https://curtisyungen.github.io/project-one/">
+                        <div class="port" id="ingredient-list">
+                            <img src="assets/images/project-1.png">
+                            <h3>Ingredient Lister</h3>
+                        </div>
+                    </a>
+                    <a href="https://carsonwack.github.io/TriviaGame/">
+                        <div class="port" id="fallacy">
+                            <img src="assets/images/Logical-Fallacy-site.png">
+                            <h3>Common Logical Fallacies Quiz</h3>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-md-2">
                 </div>
             </div>
-<!------------------------------->
+            <!------------------------------->
             <div class="row">
                 <div class="col-md-3 mobile-navbar">
                 </div>
 
                 <div class="col-md-7" id="second-row">
-                    <div class="port" id="betkeep">
-                        <img src="assets/images/bet-keeper.png">
-                        <h3>Safekeep/Maintain Current $1 Bet Score</h3>
-                    </div>
-                    <div class="port" id="train">
-                        <img src="assets/images/Train-Track-site.png">
-                        <h3>Track Public Transport Vehicles</h3>
-                    </div>
+                    <a href="https://carsonwack.github.io/BetKeeper/">
+                        <div class="port" id="betkeep">
+                            <img src="assets/images/bet-keeper.png">
+                            <h3>Safekeep/Maintain Current $1 Bet Score</h3>
+                        </div>
+                    </a>
+                    <a href="https://carsonwack.github.io/TrainTrack/">
+                        <div class="port" id="train">
+                            <img src="assets/images/Train-Track-site.png">
+                            <h3>Track Public Transport Vehicles</h3>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-md-2">
                 </div>
             </div>
-<!------------------------------->
+            <!------------------------------->
             <div class="row">
                 <div class="col-md-3 mobile-navbar">
                 </div>
 
                 <div class="col-md-7" id="third-row">
-                    <div class="port" id="stopwatch">
-                        <img src="assets/images/stopwatch-site.png">
-                        <h3>Solid Stopwatch</h3>
-                    </div>
-                    <div class="port" id="gifs">
-                        <img src="assets/images/Comedian-Gifs-site.png">
-                        <h3>Comedian Gifs</h3>
-                    </div>
+                    <a href="https://carsonwack.github.io/stopwatch/">
+                        <div class="port" id="stopwatch">
+                            <img src="assets/images/stopwatch-site.png">
+                            <h3>Solid Stopwatch</h3>
+                        </div>
+                    </a>
+                    <a href="https://carsonwack.github.io/GiphyAPI--Comedians/">
+                        <div class="port" id="gifs">
+                            <img src="assets/images/Comedian-Gifs-site.png">
+                            <h3>Comedian Gifs</h3>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-md-2">
                 </div>
             </div>
-<!------------------------------->
+            <!------------------------------->
             <div class="row">
                 <div class="col-md-3 mobile-navbar">
                 </div>
 
                 <div class="col-md-7" id="fourth-row">
-                    <div class="port" id="liri">
-                        <img src="assets/images/liri-cli-app.png">
-                        <h3>Node Command-Line App</h3>
-                    </div>
-                    <div class="port" id="node-and-SQL">
-                        <img src="assets/images/node-and-SQL.png">
-                        <h3>SQL Command-Line App</h3>
-                    </div>
+                    <a href="https://github.com/carsonwack/liri-node-app">
+                        <div class="port" id="liri">
+                            <img src="assets/images/liri-cli-app.png">
+                            <h3>Node Command-Line App</h3>
+                        </div>
+                    </a>
+                    <a href="https://github.com/carsonwack/liri-node-app">
+                        <div class="port" id="node-and-SQL">
+                            <img src="assets/images/node-and-SQL.png">
+                            <h3>SQL Command-Line App</h3>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-md-2">
                 </div>
             </div>
-        <!------------------------------->
+            <!------------------------------->
             <div class="row">
-                    <div class="col-md-3 mobile-navbar">
-                    </div>
-    
-                    <div class="col-md-7" id="fifth-row">
+                <div class="col-md-3 mobile-navbar">
+                </div>
+
+
+                <div class="col-md-7" id="fifth-row">
+                    <a href="https://mysterious-beach-27284.herokuapp.com/">
                         <div class="port" id="FriendFinder">
                             <img src="assets/images/FriendFinder.png">
-                            <h3>Friend Finder (Full Stack Site)</h3>
+                            <h3>Friend Finder &nbsp (Full Stack Site)</h3>
                         </div>
-                        <!-- <div class="port" id="node-and-SQL">
-                            <img src="assets/images/node-and-SQL.png">
-                            <h3>SQL Command-Line App</h3>
+                    </a>
+                    <a href="https://still-beach-41370.herokuapp.com/">
+                        <div class="port" id="burger">
+                            <img src="assets/images/burger.png">
+                            <h3>Devour Burgers &nbsp (mySQL & handlebars)</h3>
                         </div>
-                    </div> -->
-    
-                    <div class="col-md-2">
-                    </div>
+                    </a>
                 </div>
-        <!------------------------------->    
+
+                <div class="col-md-2">
+                </div>
+            </div>
+            <!------------------------------->
 
 
 
