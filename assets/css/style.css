@@ -270,37 +270,32 @@ a.email:active
 
 
 
+
+
+
+
+/* ----------------CONTINUALLY UPDATE HERE---------------- */
+
 #third-row, #fourth-row, #fifth-row, #sixth-row, #seventh-row {
     display: inline;
     text-align: center;
     margin-top: 45px;
 }
 
-#stopwatch {
+#stopwatch, #liri, #FriendFinder, #babyList {
     margin-right: 45px;
 }
 
-#gifs {
+#gifs, #node-and-SQL, #burger, #scrape {
     margin-left: 45px;
 }
+/* ----------------CONTINUALLY UPDATE HERE---------------- */
 
 
-#liri {
-    margin-right: 45px;
-}
-
-#node-and-SQL {
-    margin-left: 45px;
-}
 
 
-#FriendFinder {
-    margin-right: 45px;
-}
 
-#burger {
-    margin-left: 45px;
-}
+
 
 
 
