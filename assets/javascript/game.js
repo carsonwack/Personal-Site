@@ -15,50 +15,64 @@ $(document).ready(function () {
     }
 
 
-    // ___________________________Sidebar nav click functionality______________________________________
+    // ___________________________Sidebar nav highlight functionality______________________________________
 
-
-    var $sections = $('.scrollable');
+    let $sections = $('.scrollable');
 
     $(window).scroll(function () {
-        var currentScroll = $(this).scrollTop();
+        let currentScroll = $(this).scrollTop();
 
-        var $currentSection;
+        let $currentSection;
 
         $sections.each(function () {
 
-            var divPosition = $(this).offset().top;
+            let divPosition = $(this).offset().top;
 
             if (divPosition - 1 < currentScroll) {
                 $currentSection = $(this);
             }
 
-            var id = $currentSection.attr('id');
+            let id = $currentSection.attr('id');
             $('a').removeClass('active');
             $("[href='#" + id + "']").addClass('active');
+            console.log("test", "[href='#" + id + "']")
 
         })
     });
 
     // _________________________Scrolly effect on sidebar nav click________________________________________
 
-    $("#page1-button").click(function() {
+    $('#page1-button').click(function() {
+        $('#page1').addClass('active');
         $('html, body').animate({
-            scrollTop: $("#page1").offset().top
+            // Sets ID to scroll to
+            scrollTop: $('#first-scroll').offset().top
         }, 1100);
     });
 
-    $("#page2-button").click(function() {
+    $('#page2-button').click(function() {
+        // $('#page2').addClass('active');
         $('html, body').animate({
-            scrollTop: $("#page2").offset().top
+            // Sets ID to scroll to
+            scrollTop: $('#second-scroll').offset().top
         }, 1100);
     });
 
-    $("#page3-button").click(function() {
+    $('#page3-button').click(function() {
+        // $('#page3').addClass('active');
         $('html, body').animate({
-            scrollTop: $("#page3").offset().top
+            // Sets ID to scroll to
+            scrollTop: $('#third-scroll').offset().top
         }, 1100);
     });
 
 
 });
+
+
+
+
+
+
+
+

@@ -5,7 +5,7 @@ body {
 
 #sideBar {
     height: 100%;
-    width: 234px;
+    width: 166px;
     padding-right: 0;
     padding-left: 0;
     margin-right: auto;
@@ -26,13 +26,14 @@ body {
 .nav-link {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     color: #818181;
     display: block;
 }
 
 #headshot {
     text-align: center;
+    margin-right: 28px;
 }
 
 .col-md-3 {
@@ -42,12 +43,17 @@ body {
 
 #head-shot {
     border-radius: 50%;
-    width: 200px;
+    width: 170px;
     height: auto;
     margin: 55px 20px 20px 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 14%;
 }
 
-
+#me-info {
+    margin-left: 28px;
+}
 
 
 
@@ -148,6 +154,7 @@ a.email:active
 .arrows-down {
     text-align: center;
     color: black;
+    margin-left: 34px;
 }
 
 
@@ -158,75 +165,294 @@ a.email:active
 
 
 
-.port {
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 20px 0 25px;
-    overflow: auto;
-}
+/* ---------------CARD MASONRY------------ */
 
-.port img {
-    width: 100%;
-    border: solid;
-    border-color: black;
-    outline: 10px solid black;
-    opacity: 0.6;
-    border-width: 2px;
-}
-
-
-
-.port h3 {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 0;
-    font-weight: bold;
-    line-height: 17px;
-    color: #ffffff;
+.card-columns {
     text-align: center;
-    background: #343a40;
-    border-bottom: 0;
-    border-right: solid;
-    border-left: solid;
-    border-color: black;
-    font-size: smaller;
-    border-width: 2px;
-   
+}
+
+.card {
+    width: 90% !important;
+    margin-bottom: 65px !important;
+    padding: 10px;
+}
+
+.card li {
+    text-align: left;
+    font-size: 12px;
+}
+
+
+#masonry-container {
+    padding: 0px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: white;
+    margin-top: 8px;
+}
+
+#dividing-line1 {
+    border-color: rgb(206, 203, 203);
+    width: 70%;
+    margin-top: 1px;
+}
+
+.card-text {
+    font-size: 12px;
+    color: white;
+    margin-left: 14px;
+    margin-top: 21px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* #stubbornText {
+    text-align: left;
+} */
+
+.card-body {
+    padding-bottom: 9px;
+}
+
+.card ul {
+    list-style: none;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+.card li:before { 
+    content: "";
+    border-color: transparent rgb(245, 244, 244);
+    border-style: solid;
+    border-width: 0.3em 0 0.3em 0.4em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 1.0em;
+    position: relative;
+}
+
+
+#tech {
+    height: 18px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+#mySQL {
+    height: 28px;
+    width: 37px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+#express {
+    height: 22px;
+    width: 47px;
+    margin-left: 14px;
+    border-radius: 13px;
+}
+#react {
+    height: 18px;
+    width: 46px;
+    margin-left: 14px;
+}
+#listenAPI {
+    height: 22px;
+    width: 47px;
+    margin-left: 14px;
+    border-radius: 13px;
+}
+#googleAuth {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    border-radius: 13px;
+}
+
+/* #googleAuth {
+    height: 47px;
+    width: 60px;
+    margin-left: 14px;
+    border-radius: 40px;
+} */
+
+
+
+
+
+
+.wrapper {
+    margin: 44px 14px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.vl {
+    border-left: 1px solid #e9e6e6;;
+    height: 15px;
+    top: 1px;
 }
 
 
 
-.port img:hover ~ h3 {
-   background-color: #0c1c36;
-   border-width: 0px;
-   line-height: 23px;
+
+
+.podhub-githubLink, .podhub-deployedLink {
+    font-size: 9px;
+    color: #e9e6e6;
+    text-transform: uppercase;
+    padding-top: 1px;
 }
 
-.port img:hover {
-    cursor: pointer;
-}
-
-.port h3:hover {
-    cursor: pointer;
-    background-color: #0c1c36;
-    border-width: 0px;
-    line-height: 23px;
-}
-
-
-.port img {
-      border-radius: 12px;
-
+#actualLink {
+    text-decoration: none;
 }
 
 
 
-.portfolio-span {
-    margin-left: 25px;
+
+
+.git-link {
+    margin-right: 9px;
 }
+.deployed-link {
+    margin-left: 9px;
+}
+
+
+
+
+
+.git-link, .deployed-link {
+    display: inline-block;
+    color: #474E51;
+    position: relative;
+}
+
+.git-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(1);
+    height: 1px;
+    bottom: 15px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    transform-origin: bottom left;
+    transition: transform .55s ease-in-out;
+}
+
+.deployed-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(1);
+    height: 1px;
+    bottom: 15px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    transform-origin: bottom left;
+    transition: transform .4s ease-in-out;
+}
+
+.git-link:hover::after, .deployed-link:hover::after {
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+
+/* -------------------CARD-2------------------- */
+
+
+
+#five-img {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#mongoDB {
+    height: 24px;
+    width: 65px;
+    margin-left: 0px;
+    margin-bottom: 6px;
+    margin-top: 5px;
+}
+#express2 {
+    height: 22px;
+    width: 47px;
+    margin-left: 12px;
+    border-radius: 13px;
+}
+#handlebars {
+    height: 50px;
+    width: 50px;
+    margin-left: 14px;
+    margin-bottom: -2px;
+}
+#mongoose {
+    height: 22px;
+    width: 47px;
+    margin-left: 14px;
+    border-radius: 13px;
+}
+
+/* -------------------CARD-3------------------- */
+
+#sequelize {
+    height: 21px;
+    width: 56px;
+    margin-left: 14px;
+}
+#yummlyAPI {
+    height: 15px;
+    width: 44px;
+    margin-left: 8px;
+    margin-top: 3px;
+}
+
+/* -------------------CARD-4------------------- */
+
+#noTech {
+    margin-top: 5px;
+}
+#noTechList {
+    margin-bottom: 20px;
+}
+
+
+
+@media (min-width: 576px) {  
+    .card-columns {
+        column-count: 1;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .card-columns {column-count: 1;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ .card-columns {column-count: 2;}
+}
+
+
+
+/* ---------------CARD MASONRY------------ */
+
+
+
+
+
 
 
 
@@ -236,8 +462,11 @@ a.email:active
 
 #first-row {
     display: inline;
-    text-align: center;
     margin-top: 50px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    
 }
 
 
@@ -268,9 +497,16 @@ a.email:active
 }
 
 
+#third-page-break {
+    margin-left: 9%;
+}
 
 
 
+#first-row-wrap, #second-row-wrap, #third-row-wrap, #fourth-row-wrap, #fifth-row-wrap, #sixth-row-wrap {
+    display: inline-block;
+    text-align: center;
+}
 
 
 /* ----------------CONTINUALLY UPDATE HERE---------------- */
@@ -281,28 +517,19 @@ a.email:active
     margin-top: 45px;
 }
 
-#stopwatch, #liri, #FriendFinder, #babyList {
+#stopwatch, #liri, #FriendFinder, #babyList, #clicky-game {
     margin-right: 45px;
 }
 
 #gifs, #node-and-SQL, #burger, #scrape {
     margin-left: 45px;
 }
+
 /* ----------------CONTINUALLY UPDATE HERE---------------- */
 
 
 
 
-
-
-
-
-
-.resume {
-  margin-top: 20px;
-  width: 100%;
-  height: auto;
-}
 
 
 
@@ -319,9 +546,12 @@ a.email:active
 }
 
 a:hover {
-    color: #0c1c36;
+    color: #818181;
 }
 
+.active:hover {
+    color: white;
+}
 
 
 
@@ -339,8 +569,86 @@ a:hover {
 }
 
 
+#dividingLine-ex-ed {
+    border-color: black;
+    width: 74%;
+    margin-top: 2px;
+    margin-left: 20%;
+}
 
 
+.first-ed {
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.ed-logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 10%;
+  }
+
+
+
+
+.ed-text {
+    color: white;
+    font-size: 12px;
+}
+
+#ed-text-divider {
+    color: red;
+    height: 3px;
+    width: 40%
+}
+
+#ed-title:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 60%; /* Change this to whatever width you want. */
+    padding-top: 8px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid rgb(114, 114, 114); /* This creates the border. Replace black with whatever color you want. */
+  }
+
+
+#sidebar-fixed {
+    padding: 0px;
+    margin-right: 83px;
+}
+
+#ed-title {
+    margin-bottom: 0px;
+}
+
+#date {
+    color: white;
+    float: right;
+    font-size: 11px;
+    font-style: italic;
+}
+
+#ed-text-body {
+    margin-top: 10px;
+    padding-left: 7%;
+}
+
+#ed-block {
+    padding-left: 0px;
+}
+
+#img-block {
+    padding-right: 0px;
+}
+
+.bottom-space {
+    margin-bottom: 100px;
+}
+
+.ed-logo {
+    border: 1px solid rgb(30, 29, 29);
+}
 
 @media screen and (max-width: 767px) {
     #mobile-navbar {
@@ -348,7 +656,7 @@ a:hover {
     }
 
     .portfolio-span {
-        margin-left: 25px;
+        /* margin-left: 25px; */
     }
 
     .page-break {
@@ -371,6 +679,28 @@ a:hover {
 
     }
 
+    #masonry-container {
+        margin-left: 0px;
+    }
+}
 
 
-  }
+@media screen and (max-width: 996px) {
+
+    #masonry-container {
+        margin-left: 27%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #masonry-container {
+        margin-left: 16%;
+    }
+
+}
+
+
+
+
