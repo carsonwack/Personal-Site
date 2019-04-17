@@ -35,7 +35,6 @@ $(document).ready(function () {
             let id = $currentSection.attr('id');
             $('a').removeClass('active');
             $("[href='#" + id + "']").addClass('active');
-            console.log("test", "[href='#" + id + "']")
 
         })
     });
@@ -43,7 +42,6 @@ $(document).ready(function () {
     // _________________________Scrolly effect on sidebar nav click________________________________________
 
     $('#page1-button').click(function() {
-        $('#page1').addClass('active');
         $('html, body').animate({
             // Sets ID to scroll to
             scrollTop: $('#first-scroll').offset().top
@@ -51,7 +49,6 @@ $(document).ready(function () {
     });
 
     $('#page2-button').click(function() {
-        // $('#page2').addClass('active');
         $('html, body').animate({
             // Sets ID to scroll to
             scrollTop: $('#second-scroll').offset().top
@@ -59,7 +56,6 @@ $(document).ready(function () {
     });
 
     $('#page3-button').click(function() {
-        // $('#page3').addClass('active');
         $('html, body').animate({
             // Sets ID to scroll to
             scrollTop: $('#third-scroll').offset().top
