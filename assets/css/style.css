@@ -390,19 +390,19 @@ a.email:active
 #express2 {
     height: 22px;
     width: 47px;
-    margin-left: 12px;
+    margin-left: 15px;
     border-radius: 13px;
 }
 #handlebars {
     height: 50px;
     width: 50px;
-    margin-left: 14px;
+    margin-left: 13px;
     margin-bottom: -2px;
 }
 #mongoose {
     height: 22px;
     width: 47px;
-    margin-left: 14px;
+    margin-left: 16px;
     border-radius: 13px;
 }
 
