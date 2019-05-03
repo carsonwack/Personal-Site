@@ -66,7 +66,7 @@ body {
     vertical-align: top;
     text-align: center;
     padding-top: 40px;
-    color: #5C6372;
+    color: rgb(225, 227, 231);
     font-size: smaller;
 }
 
@@ -78,11 +78,11 @@ body {
 .email {
     text-align: center;
     padding-top: 20px;
-
+    padding-bottom: 47px;   
 }
 
 a.email:link {
-    color: #5C6372;
+    color: rgb(225, 227, 231);
 }
 
 a.email:visited
@@ -92,7 +92,6 @@ a.email:visited
 }
 a.email:hover
 {
-   color:#0c1c36;
    text-decoration: none;
 }
 a.email:active
@@ -115,8 +114,8 @@ a.email:active
 #github {
     display: inline-block;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 130px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #git-link {
@@ -242,12 +241,40 @@ a.email:active
     position: relative;
 }
 
+.home-tech {
+    padding-bottom: 46px; 
+}
+
+#tech-divider {
+    border-color: rgb(24, 24, 24);
+}
+
+#just-for-margin {
+    margin-top: 80px;
+}
+
+.home-tech #handlebars {
+    margin-left: 5px;
+    margin-right: 9px;
+}
+.home-tech #react {
+    margin-right: 15px;
+}
+.home-tech #mySQL, #express, #googleAuth {
+    margin-right: 7px;
+}
+.home-tech #sequelize {
+    height: 25px;
+    width: 61px;
+    margin-left: 14px;
+}
 
 #tech {
     height: 18px;
     color: white;
     font-size: 13px;
     text-align: center;
+    vertical-align: middle;
 }
 
 #mySQL {
