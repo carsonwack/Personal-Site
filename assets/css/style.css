@@ -114,8 +114,8 @@ a.email:active
 #github {
     display: inline-block;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 64px;
 }
 
 #git-link {
@@ -245,6 +245,10 @@ a.email:active
     padding-bottom: 46px; 
 }
 
+#tech-col {
+    padding-left: 0px;
+}
+
 #tech-divider {
     border-color: rgb(24, 24, 24);
 }
@@ -357,7 +361,7 @@ a.email:active
 }
 
 #resume-div {
-    margin-left: 11%;
+    margin-left: 9%;
 }
 
 #very-bottom {
